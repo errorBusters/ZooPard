@@ -1,0 +1,476 @@
+body,html {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden; 
+    height: auto;
+    min-height: 100%;
+    position: relative;
+}
+
+.home{
+    position: relative; 
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+.home img{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home h2{
+    font-size: 36pt;
+    text-align: center;
+    font-weight: bold; 
+    position: relative; 
+    margin-top: 15%;
+    margin-left: 0%;
+}
+.home h4{
+    font-size: 16pt;
+    text-align: center;
+    position: relative; 
+    margin-top: 20px;
+    margin-left: 0%;
+    margin-bottom: 250px;
+}
+.home p{
+    text-align: center;
+    font-size: medium;
+    color: #272727;
+}
+.home h2:hover{
+    color: #0ec746;
+}
+.home h4:hover{
+    color: #00928b;
+}
+section{
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+}
+
+
+.home input{
+    padding: 5px;
+    margin-left: 10%;
+    width: 80%;
+    height: 35px;
+    border-color: #0ec746;
+    border-radius: 20px;
+    border: 2px solid #0ec746; 
+    color: #272727;
+  }
+.home input:hover{
+    border-color: aqua;
+  }
+
+
+.aboutUs, .map, .outlet{
+    align-items: center;
+}
+
+.aboutCont {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.aboutImg {
+    margin-top: 10px;
+    margin-right: 20px; 
+    border: none;
+    border-radius: 20px;
+    margin-left: 10%; 
+    width: 50%;
+    height: 50%;
+}
+.aboutImg a {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    display: inline-block; 
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0ec746; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.aboutImg a:hover {
+    background-color: #02581c; 
+}
+.aboutText {
+    margin-left: 20px; 
+    text-align: right;
+}
+
+.aboutText h2{
+    font-size: larger;
+    font-style: bold;
+    color: #272727;
+}
+.aboutText p{
+    font-size: medium;
+    color: #272727;
+}
+.map h2, .outlet h2{
+    text-align: center;
+    font-size: larger;
+    font-style: bold;
+    color: #272727;
+}
+.aboutUs h4, .outlet h4{
+    text-align: center;
+    font-style: bold;
+}
+.outlet p{
+    text-align: center;
+    font-size: medium;
+    color: #272727;
+}
+.animalContainer{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+}
+.Ani{
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #272727;
+}
+.Ani img{
+    width: 150px;
+    height: 120px;
+}
+.animals h2{
+    text-align: center;
+    font-size: larger;
+    font-style: bold;
+    color: #272727;
+}
+.foodList{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #a0a0a0;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 4%;
+    padding-top: 20px;
+}
+.fitem{
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.fitem img{
+    width: 200px;
+    height: 200px;
+}
+.map{
+    align-items: center;
+}
+.zooMap{
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    height: 450px;
+}
+
+.contactForm{
+    margin-bottom: 50px;
+}
+.registerForm, .contactForm{
+    padding: 80px;
+    margin-top: 80px;
+    margin-left: 35%;
+    background-color: #272727;
+    position: relative; 
+    height: auto; 
+    width: 30%;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.registerForm h2, .contactForm h2{
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.registerForm label, .contactForm label{
+    margin-left: 10%;
+    font-size: small;
+    color: #ffffff;
+    text-align: left;
+}
+
+.registerForm input,select, .contactForm input{
+    padding: 5px;
+    margin-left: 10%;
+    width: 80%;
+    height: 35px;
+    border-color: #0ec746;
+    border-radius: 20px;
+    border: 2px solid #0ec746; 
+    color: #272727;
+}
+
+.registerForm button, .contactForm button{
+    padding: 5px;
+    width: 30%;
+    height: 35px;
+    margin-left: 35%;
+    margin-top: 20px;
+    color: #ffff;
+    background-color: #0ec746;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.registerForm button:hover, .contactForm button:hover{
+    background-color: #02581c;
+}
+.registerForm input:hover, .registerForm select:hover, .contactForm input:hover{
+    border-color: aqua;
+}
+
+.comNav{
+    position: relative; 
+    z-index: 99;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0px 30px;
+    height: 30px;
+    line-height: 70px;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comNav ul{
+    margin-top: 115px;
+    display: inline-flex;
+    padding: 0;
+    list-style-type: none;
+    height: 30px;
+}
+
+.comNavList a {
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 2px;
+    height: 30px;
+    line-height: 26px; 
+    color: #fff;
+    background-color: #02581c; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box; 
+    margin-right: 10px;
+}
+
+.mprofile{
+    margin-left: 10px;
+}
+.dashTitle{
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 2px;
+    height: 30px;
+    line-height: 26px; 
+    color: #0ec746;
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box; 
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.comNavList a:hover{
+    background-color: #3a754c;
+}
+
+.comContent {
+    margin-top: 80px;
+    display: flex; 
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.modBtn{
+    position: relative;
+    margin-top: 10px;
+}
+#addBtn, #editBtn, #delBtn{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addBtn{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    background-color: #0ec746; 
+}
+#editBtn{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    background-color: #fccb2d; 
+}
+#delBtn{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    background-color: #c70e0e; 
+}
+
+#addBtn:hover{
+    background-color: #02581c;
+}
+#editBtn:hover{
+    background-color: #7a5e00;
+}
+#delBtn:hover{
+    background-color: #660909;
+}
+
+table{
+    width: 100%;
+}
+tr{
+    height: 50px;
+}
+th{
+    background-color: #0ec746;
+}
+td{
+    border-bottom: 5px solid #272727; 
+}
+
+.addProgram,.editProgram, .delProgram, .myProfile {
+    display: none; 
+    position: fixed; 
+    z-index: 100; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5); 
+}
+
+
+.addProgramContent,.editProgramContent, .delProgramContent, .myProfileContent {
+    padding: 50px;
+    margin: 15% auto; 
+    background-color: #272727;
+    position: relative;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.addProgramContent h2,.editProgramContent h2, .delProgramContent h2, .myProfileContent h2{
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.addProgramContent label,.editProgramContent label, .delProgramContent label{
+    margin-left: 10%;
+    font-size: small;
+    color: #ffffff;
+    text-align: left;
+}
+
+.addProgramContent input,.editProgramContent input, .delProgramContent input{
+    padding: 5px;
+    margin-left: 10%;
+    width: 80%;
+    height: 35px;
+    border-color: #0ec746;
+    border-radius: 20px;
+    border: 2px solid #0ec746;
+    color: #272727;
+}
+
+.addProgramContent button,.editProgramContent button, .delProgramContent button{
+    padding: 5px;
+    width: 30%;
+    height: 35px;
+    margin-left: 35%;
+    margin-top: 20px;
+    color: #ffff;
+    background-color: #0ec746;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.addProgramContent button:hover,.editProgramContent button:hover, .delProgramContent button:hover{
+    background-color: #02581c;
+}
+.addProgramContent input:hover, .editProgramContent select:hover,.editProgramContent input:hover, .delProgramContent input:hover{
+    border-color: aqua;
+}
+
+.closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.myProfileContent{
+    color: #fff ;
+}
